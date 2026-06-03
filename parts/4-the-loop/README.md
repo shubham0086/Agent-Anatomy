@@ -14,6 +14,6 @@ node demo.js
 > an **agent = brain (LLM) + hands (tools) + memory + loop**. Remove the loop and
 > you're back to a chatbot : no matter how many tools you bolt on.
 
-**The loop is what separates tools from agents.** Cursor in agent mode: edits the file, runs the tests, reads the error, edits again — nobody pressed anything between those steps. Devin: writes code, runs it in a sandbox, sees what breaks, keeps going. Open Interpreter: writes Python, executes it, reads the output, decides the next step. When you see an AI "keep going" without you prompting it — that is the loop organ. Every model you have ever used has a brain. Very few ship with a real loop wired in.
+**The loop is what separates tools from agents.** Cursor in agent mode: edits the file, runs the tests, reads the error, edits again — nobody pressed anything between those steps. Devin: writes code, runs it in a sandbox, sees what breaks, keeps going. Open Interpreter: writes Python, executes it, reads the output, decides the next step. OpenClaw: reads a file, runs a shell command, checks the result, loops until the task is done — all locally on your machine. When you see an AI "keep going" without you prompting it — that is the loop organ. Every model you have ever used has a brain. Very few ship with a real loop wired in.
 
 ➡ Now break it on purpose: [the ablations](../../ablations/)
