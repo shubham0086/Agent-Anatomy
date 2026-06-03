@@ -1,6 +1,6 @@
 <div align="center">
 
-# Agent Anatomy — What Is an Agent, Really?
+# Agent Anatomy : What Is an Agent, Really?
 
 **One agent. Four organs. Switch each one off and watch it break.**
 
@@ -19,9 +19,9 @@
 
 An **agent** is not a model. It's a model (the **brain**) wired to three more things: **memory** to carry state across turns, **hands** (tools) to act on the world, and a **loop** to take more than one step.
 
-Take any one away and it collapses into something simpler — usually a plain chatbot.
+Take any one away and it collapses into something simpler, usually a plain chatbot.
 
-This repo lets you *feel* that. The same agent runs with organs added one at a time, then with each one deliberately removed. The failure modes are not described — they are demonstrated.
+This repo lets you *feel* that. The same agent runs with organs added one at a time, then with each one deliberately removed. The failure modes are not described. They are demonstrated.
 
 ---
 
@@ -55,7 +55,7 @@ graph TD
 node parts/1-the-brain/demo.js    # talks, but forgets and can't act
 node parts/2-the-memory/demo.js   # now it remembers your name
 node parts/3-the-hands/demo.js    # reaches for a tool... but freezes (no loop yet)
-node parts/4-the-loop/demo.js     # full agent — finally completes the tool call
+node parts/4-the-loop/demo.js     # full agent : finally completes the tool call
 ```
 
 The same 3-turn script runs each time ("Remember my name is Alex" / "What is my name?" / "What is 12 × 9?"). The only variable is which organs are active.
@@ -89,8 +89,8 @@ Open [`web/index.html`](web/index.html): four toggle switches (brain is always-o
 
 ## Read more
 
-- [`GLOSSARY.md`](GLOSSARY.md) — chatbot vs. assistant vs. agent vs. workflow vs. swarm, settled with one test per term
-- [`ablations/README.md`](ablations/README.md) — what each organ proves, and why ablation is the right teaching method
+- [`GLOSSARY.md`](GLOSSARY.md) : chatbot vs. assistant vs. agent vs. workflow vs. swarm, settled with one test per term
+- [`ablations/README.md`](ablations/README.md) : what each organ proves, and why ablation is the right teaching method
 
 ---
 
@@ -104,13 +104,13 @@ cd Agent-Anatomy
 node parts/1-the-brain/demo.js
 ```
 
-Use a real model (Ollama or any OpenAI-compatible endpoint) — see [`SETUP.md`](SETUP.md).
+Use a real model (Ollama or any OpenAI-compatible endpoint) : see [`SETUP.md`](SETUP.md).
 
 ---
 
 ## Where this fits
 
-This is the **zoom-in** on a single agent. For the bigger picture — how a plain script becomes a workflow, a team, and a swarm — see the companion repo **[AI-systems-evolution](https://github.com/shubham0086/AI-systems-evolution)** first (rung 03 is the agent this repo dissects). For production-grade versions of memory, tools, and routing see **[agentkernel](https://github.com/shubham0086/agentkernel)** and **[agentic-systems](https://github.com/shubham0086/agentic-systems)**.
+This is the **zoom-in** on a single agent. For the bigger picture (how a plain script becomes a workflow, a team, and a swarm) see the companion repo **[AI-systems-evolution](https://github.com/shubham0086/AI-systems-evolution)** first (rung 03 is the agent this repo dissects). For production-grade versions of memory, tools, and routing see **[agentkernel](https://github.com/shubham0086/agentkernel)** and **[agentic-systems](https://github.com/shubham0086/agentic-systems)**.
 
 ```
 AI-systems-evolution   ← start here (the six-rung autonomy ladder)

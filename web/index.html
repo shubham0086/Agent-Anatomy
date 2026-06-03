@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Agent Anatomy — What is an agent, really?</title>
+<title>Agent Anatomy : What is an agent, really?</title>
 <style>
   :root{--bg:#0c0f19;--panel:#121726;--line:#1e293b;--text:#f8fafc;--muted:#94a3b8;
     --accent:#5b5ef4;--accent2:#14b8a6;--bad:#f87171;--code:#0a0d16}
@@ -94,13 +94,13 @@ function render(){
 
   // Turn 1: remember a name
   const t1 = { you:'Remember my name is Alex.',
-    a: s.memory ? ['ok','Got it — I\'ll remember that.'] : ['fail','Got it! (but with no memory, this won\'t stick)'] };
+    a: s.memory ? ['ok','Got it : I\'ll remember that.'] : ['fail','Got it! (but with no memory, this won\'t stick)'] };
   // Turn 2: recall it
   const t2 = { you:'What is my name?',
-    a: s.memory ? ['ok','Your name is Alex.'] : ['fail','I don\'t know — I have no memory of you telling me.'] };
+    a: s.memory ? ['ok','Your name is Alex.'] : ['fail','I don\'t know : I have no memory of you telling me.'] };
   // Turn 3: use a tool
   let t3a;
-  if (!s.hands) t3a = ['fail','I can\'t do arithmetic on my own — I have no tools (hands).'];
+  if (!s.hands) t3a = ['fail','I can\'t do arithmetic on my own : I have no tools (hands).'];
   else if (!s.loop) t3a = ['fail','I reached for the calculator… then froze. No loop to use the result.'];
   else t3a = ['ok','The answer is 108. (called calculator: 12 × 9)'];
   const t3 = { you:'What is 12 × 9?', a:t3a };

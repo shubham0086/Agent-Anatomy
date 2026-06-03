@@ -1,4 +1,4 @@
-# Part 2 — The Memory
+# Part 2 : The Memory
 
 **What turns a goldfish into something that learns about you.**
 
@@ -12,6 +12,6 @@ node demo.js
 
 This tiny `Memory` class is the toy version of a real idea. A production memory
 layer (persistence across sessions, recall ranking, drift control) is an entire
-engine — see the **agentkernel** repo.
+engine : see the **agentkernel** repo.
 
-➡ [Part 3 — The Hands](../3-the-hands/)
+➡ [Part 3 : The Hands](../3-the-hands/)

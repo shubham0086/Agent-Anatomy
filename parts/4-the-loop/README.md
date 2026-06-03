@@ -1,4 +1,4 @@
-# Part 4 — The Loop
+# Part 4 : The Loop
 
 **The organ that makes it an agent.**
 
@@ -12,6 +12,6 @@ node demo.js
 
 > **The one-line definition this whole repo is built around:**
 > an **agent = brain (LLM) + hands (tools) + memory + loop**. Remove the loop and
-> you're back to a chatbot — no matter how many tools you bolt on.
+> you're back to a chatbot : no matter how many tools you bolt on.
 
 ➡ Now break it on purpose: [the ablations](../../ablations/)

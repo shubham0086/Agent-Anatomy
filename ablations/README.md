@@ -1,4 +1,4 @@
-# Ablations — break it on purpose
+# Ablations : break it on purpose
 
 The fastest way to understand what an organ *does* is to remove it and watch what
 fails. Each script below is the full agent with exactly one organ taken out.
@@ -16,4 +16,4 @@ node ablations/no-loop.js     # reaches for a tool, then freezes    → it's a c
 | **Loop** | Can't use a tool result | The loop = the chatbot→agent line |
 
 The takeaway: an agent isn't one thing, it's four things working together. Take
-any one away and it collapses into something simpler — usually a plain chatbot.
+any one away and it collapses into something simpler, usually a plain chatbot.

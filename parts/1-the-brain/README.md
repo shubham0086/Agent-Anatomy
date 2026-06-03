@@ -1,4 +1,4 @@
-# Part 1 — The Brain
+# Part 1 : The Brain
 
 **The LLM, alone.** This is the part everyone already has from a chat box.
 
@@ -15,4 +15,4 @@ node demo.js
 
 A brain alone is a chatbot. The next three parts turn it into an agent.
 
-➡ [Part 2 — The Memory](../2-the-memory/)
+➡ [Part 2 : The Memory](../2-the-memory/)
