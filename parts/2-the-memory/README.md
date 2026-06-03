@@ -10,6 +10,8 @@ turn starts from zero.
 node demo.js
 ```
 
+**Real memory in the wild:** ChatGPT's "Memory" feature (stores facts about you across sessions). Claude Projects (your instructions persist across conversations). Note: a long context window is *not* memory. Giving the model 200,000 tokens just means it reads more text per turn. Memory means something survives after the conversation ends and is recalled in a future one. Without memory, every chat — even with the smartest model — starts from zero.
+
 This tiny `Memory` class is the toy version of a real idea. A production memory
 layer (persistence across sessions, recall ranking, drift control) is an entire
 engine : see the **agentkernel** repo.

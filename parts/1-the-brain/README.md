@@ -13,6 +13,8 @@ of the past, and it stops after a single response. Run the demo and watch it:
 node demo.js
 ```
 
+**Every model you have ever used is a brain:** GPT-4o, Claude 3.5 Sonnet, Gemini 1.5 Pro, Llama 3, Hermes 3 (the open-source model on Ollama built specifically for tool-calling and agentic use), Qwen 2.5. They all reason and talk. Without the other three organs, every single one of them is a chatbot — brilliant, but a chatbot.
+
 A brain alone is a chatbot. The next three parts turn it into an agent.
 
 ➡ [Part 2 : The Memory](../2-the-memory/)
