@@ -11,6 +11,10 @@
 [![Mock mode](https://img.shields.io/badge/runs-offline%20by%20default-orange.svg)]()
 [![License: MIT](https://img.shields.io/badge/Code-MIT-lightgrey.svg)](LICENSE)
 
+<br>
+
+![Agent Anatomy — four organs wiring into one agent](anatomy.svg)
+
 </div>
 
 ---
@@ -91,6 +95,7 @@ Open [`web/index.html`](web/index.html): four toggle switches (brain is always-o
 
 - [`GLOSSARY.md`](GLOSSARY.md) : chatbot vs. assistant vs. agent vs. workflow vs. swarm, settled with one test per term
 - [`ablations/README.md`](ablations/README.md) : what each organ proves, and why ablation is the right teaching method
+- [`parts/5-the-harness/README.md`](parts/5-the-harness/README.md) : beyond the four organs : the **harness** (deterministic control plane). Why reliable agents put guarantees in code, not in the model. Hooks vs interval loops vs scheduled agents, and the self-healing context loop.
 
 ---
 
