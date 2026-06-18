@@ -132,7 +132,7 @@ AI-systems-evolution   ← start here (the six-rung autonomy ladder)
 <div align="center">
 
 Built by [Shubham Prajapati](https://github.com/shubham0086) ·
-[Portfolio](https://shubham0086.github.io/MyPortfolio.github.io/)
+[Portfolio](https://my-portfolio-github-io-beta-five.vercel.app/)
 · MIT (code) · CC BY 4.0 (content)
 
 </div>
